@@ -235,10 +235,12 @@ nav {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .card-deck:hover{
     margin-top: 5px;
+    
 }
 .card{
     border: 1px solid black;
@@ -259,7 +261,13 @@ nav {
     width: 250px;
 }
 
+.lastitemscontainer{
+    margin-bottom: 20px;
+}
 
+.n1{
+    font-size: 25px;
+}
 
 .f1 {
     background-color: black;

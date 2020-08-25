@@ -258,9 +258,14 @@ nav {
     height: 235px;
     width: 250px;
 }
+.lastitemscontainer{
+    margin-bottom: 10px;
+}
 
-
-
+.n1{
+    font-size: 25px;
+}
+/*footer*/
 .f1 {
     background-color: black;
 }

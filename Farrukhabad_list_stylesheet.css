@@ -259,8 +259,20 @@ nav {
     width: 250px;
 }
 
+.lastitemscontainer{
+    margin-bottom: 20px;
+}
 
+.n1{
+    font-size: 25px;
+}
+.n2{
+    font-size: 27px;
+}
 
+.n3{
+    font-size: 20px;
+}
 .f1 {
     background-color: black;
 }

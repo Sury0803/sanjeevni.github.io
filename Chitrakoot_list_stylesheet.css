@@ -259,7 +259,9 @@ nav {
     width: 250px;
 }
 
-
+.lastitemscontainer{
+    margin-bottom: 10px;
+}
 
 .f1 {
     background-color: black;

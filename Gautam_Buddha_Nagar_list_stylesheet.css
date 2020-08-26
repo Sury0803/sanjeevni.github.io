@@ -263,6 +263,22 @@ nav {
     margin-bottom: 20px;
 }
 
+
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
 .n1{
     font-size: 15px;
 }

@@ -315,6 +315,18 @@ nav {
 }
 
 
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /*footer*/
 
 .f1 {

@@ -223,7 +223,17 @@ nav {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 
 /*flex-box*/

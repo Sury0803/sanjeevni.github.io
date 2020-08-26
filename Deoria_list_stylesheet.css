@@ -270,9 +270,27 @@ nav {
     font-size: 25px;
 }
 
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
 .f1 {
     background-color: black;
 }
+
+
+
 
 .infomationtag {
     text-align: center;

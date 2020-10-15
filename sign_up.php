@@ -51,9 +51,9 @@
                         </div>
                         <div class="contact-form">
                             <form action="" method="post">
-                                <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+                                <input name="email" type="email" class="form-control" placeholder="Email" autocomplete="off" required><br>
                                 <input name="make_password" type="password" class="form-control" placeholder="Make Password" required><br>
-                                <input name="hospital_name" type="text" class="form-control" placeholder="Hospital Name"><br>
+                                <input name="hospital_name" type="text" class="form-control" placeholder="Hospital Name" autocomplete="off" required><br>
                                 <select name="hospital_specializaton" class="form-control">
                                     <option>Select Type of Hospital</option>
                                     <option>Government Hospital</option>
@@ -61,7 +61,7 @@
                                     <option>Charitable Hospital</option>
                                     <option>clinic</option>
                                 </select><br>
-                                <input name="address" type="text" class="form-control" placeholder="Hospital Address"><br>
+                                <input name="address" type="text" class="form-control" placeholder="Hospital Address" autocomplete="off" required><br>
                                 <select name="country" class="form-control" id="countySel">
                                     <option value="" selected="selected">Select Country</option>
                                 </select>
@@ -72,15 +72,15 @@
                                 <select name="district" class="form-control" id="districtSel">
                                     <option value="" selected="selected">Select district</option>
                                 </select><br>
-                                <input name="hospital_phone_no" type="text" class="form-control" placeholder="Hospital Phone Number"><br>
+                                <input name="hospital_phone_no" type="text" class="form-control" placeholder="Hospital Phone Number" autocomplete="off" required><br>
                                 <select name="emergency" class="form-control">
                                     <option>Emergency</option>
                                     <option>Open</option>
                                     <option>Close</option>
                                 </select><br>
-                                <input name="available_beds" type="text" class="form-control" placeholder="Number of Available Beds"><br>
-                                <input name="icu" type="text" class="form-control" placeholder="Number of Available ICU"><br>
-                                <input name="ventilator" type="text" class="form-control" placeholder="Number of Available Ventilator"><br>
+                                <input name="available_beds" type="text" class="form-control" placeholder="Number of Available Beds" autocomplete="off" required><br>
+                                <input name="icu" type="text" class="form-control" placeholder="Number of Available ICU" autocomplete="off" required><br>
+                                <input name="ventilator" type="text" class="form-control" placeholder="Number of Available Ventilator" autocomplete="off" required><br>
                                 <select name="oxygen" class="form-control">
                                     <option>Oxygen Availability</option>
                                     <option>Yes</option>
@@ -91,7 +91,7 @@
                                     <option>Yes</option>
                                     <option>No</option>
                                 </select><br>
-                                <input name="ambulance_phone_no" type="text" class="form-control" placeholder="Ambulance Number"><br>
+                                <input name="ambulance_phone_no" type="text" class="form-control" placeholder="Ambulance Number" autocomplete="off"><br>
                                 <select name="male_doctor_availability" class="form-control">
                                     <option>Male Doctor Availability</option>
                                     <option>Yes</option>

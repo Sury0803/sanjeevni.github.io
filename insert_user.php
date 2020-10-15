@@ -39,7 +39,7 @@ if(isset($_POST['signup'])){
         exit();
     }
 
-    $vj ="INSERT INTO `user`(`email`, `pass`, `hospital_name`, `type_of_hospital`, `hospital_address`, `country`, `state`, `district`, `h_phone_no`, `emergency`, `bed`, `icu`, `ventilator`, `oxygen`, `ambulance_availability`, `amubulance_phone_no`, `male_doctor`, `female doctor`, `image`, `reg_date`, `ver_code`, `status`) VALUES('$Email','$Password','$H_Name','$Type_Of_H','$H_Address','$Country','$State','$District','$H_Phone_No','$Emergency','$Bed','$ICU','$Ventilator','$Oxygen','$Ambulance_Availability','$A_Phone_No','$Male_Doctor','$Female_Doctor','default.jpg',NOW(),'$Ver_Code','$Status')";
+    $vj ="INSERT INTO `user`(`email`, `pass`, `hospital_name`, `type_of_hospital`, `hospital_address`, `country`, `state`, `district`, `h_phone_no`, `emergency`, `bed`, `icu`, `ventilator`, `oxygen`, `ambulance_availability`, `amubulance_phone_no`, `male_doctor`, `female_doctor`, `image`, `reg_date`, `ver_code`, `status`) VALUES('$Email','$Password','$H_Name','$Type_Of_H','$H_Address','$Country','$State','$District','$H_Phone_No','$Emergency','$Bed','$ICU','$Ventilator','$Oxygen','$Ambulance_Availability','$A_Phone_No','$Male_Doctor','$Female_Doctor','default.jpg',NOW(),'$Ver_Code','$Status')";
     
     $query=mysqli_query($con,$vj);
     

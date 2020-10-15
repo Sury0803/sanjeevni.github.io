@@ -50,7 +50,7 @@
         </div>
         <div class="contact-form">
             <form  action="" method="post">
-                <input name="email" type="email" class="form-control" placeholder="your email" required><br>
+                <input name="email" type="email" class="form-control" placeholder="your email" autocomplete="off" required><br>
                 <input name="password" type="password" class="form-control" placeholder="password" required><br>
                 <input name="login" type="submit" class="submit" value="Log In">
             </form>

@@ -172,7 +172,7 @@ nav {
 
 /*-------------mid portion--------------------*/
 div.midportion {
-    background:  url(bodybackground.jpg);
+    background:  url(bg/bodybackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 

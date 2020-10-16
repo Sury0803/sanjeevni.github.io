@@ -27,7 +27,7 @@
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
-                <li class="nav-item item1 active"><a href="#">
+                <li class="nav-item item1 active"><a href="edit_profile.php">
                         <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Edit Account</b></button></a>
                 </li>
                 <li class="nav-item item2 active">
@@ -42,7 +42,7 @@ include("home_script.php");
     <div class="c1">
         <div class="fluid-container">
             <div class="row">
-                <img class="img-fluid introimg" style="border: 5px solid white; box-shadow: 0 0 16px 7px rgba(0,150,255,0.91) ;" src="users/default.jpg">
+            <?php echo"<img class='img-fluid introimg' style='border: 5px solid white; box-shadow: 0 0 16px 7px rgba(0,150,255,0.91) ;' src='users/$Image'>"; ?>
             </div>
             <h1 class="introline"><?php echo"$Hospital_Name"; ?></h1>
         </div>

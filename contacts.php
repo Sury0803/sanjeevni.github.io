@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-lg-6">
                         <div class="row cont1">
-                            <img class="img-fluid myimg1" src="images/vishaljain.png">
+                            <img class="img-fluid myimg1" src="image/vishaljain.png">
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-6">
@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-lg-6">
                         <div class="row">
-                            <img class="img-fluid myimg2" src="images/suryansh.png">
+                            <img class="img-fluid myimg2" src="image/suryansh.png">
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-6">
@@ -99,7 +99,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-lg-6">
                         <div class="row">
-                            <img class="img-fluid myimg3" src="images/rahul.png">
+                            <img class="img-fluid myimg3" src="image/rahul.png">
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-6">
@@ -122,7 +122,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-lg-6">
                         <div class="row">
-                            <img class="img-fluid myimg4" src="images/vishalverma.png">
+                            <img class="img-fluid myimg4" src="image/vishalverma.png">
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-6">

@@ -8,6 +8,7 @@ $row=mysqli_fetch_array($run_user);
 
 $id=$row['id'];
 $Hospital_Name=$row['hospital_name'];
+$Password=$row['pass'];
 $Hospital_Type=$row['type_of_hospital'];
 $Address=$row['hospital_address'];
 $Country=$row['country'];
@@ -23,4 +24,5 @@ $Ambulance_Availability=$row['ambulance_availability'];
 $Ambulance_Phone_No=$row['amubulance_phone_no'];
 $Male_Doctor=$row['male_doctor'];
 $Female_Doctor=$row['female_doctor'];
+$Image=$row['image'];
 ?>

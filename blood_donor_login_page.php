@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<?php include("login_script.php")?>
+<?php include("blood_donor_login_page_script.php")?>
 <html>
 <head>
-    <title>Sanjeevni.com/log_in_page</title>
+    <title>Sanjeevni.com/blood_donor_log_in_page</title>
     <!--required meta tag-->
     <meta charset="utf-8">
     <link rel="icon" href="images/logoimg.jpg">
@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/loginstylesheet.css">
+    <link rel="stylesheet" href="style/blood_donor_login_page_stylesheet.css">
     <!--font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -34,7 +34,7 @@
                     <a href="#"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
                 </li>
                 <li class="nav-item item3 active"><a href="login_signup_page.php">
-                    <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Sign In/up</b></button></a>
+                        <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Sign In/up</b></button></a>
                 </li>
             </ul>
         </div>
@@ -45,7 +45,7 @@
     <div class="row maincontainer">
     <div class="container-fluid contactform">
         <div class="contact-title">
-            <h1 class="loginline"><b>Log In</b></h1>
+            <h1 class="loginline"><b>Blood Donor Log In</b></h1>
             <h2 class="logintag">Sanjeevni is always ready<br>to serve you!</h2>
         </div>
         <div class="contact-form">

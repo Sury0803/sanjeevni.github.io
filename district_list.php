@@ -32,10 +32,10 @@
                         <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Home</b></button></a>
                 </li>
                 <li class="nav-item item2 active">
-                    <a href="login.php"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Log In</b></button></a>
+                    <a href="#"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
                 </li>
                 <li class="nav-item item3 active"><a href="sign_up.php">
-                        <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Sign up</b></button></a>
+                        <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Sign In/up</b></button></a>
                 </li>
             </ul>
         </div>

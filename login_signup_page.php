@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<?php include("login_script.php")?>
 <html>
+
 <head>
-    <title>Sanjeevni.com/log_in_page</title>
-    <!--required meta tag-->
-    <meta charset="utf-8">
+    <title>sanjeevni.com</title>
     <link rel="icon" href="images/logoimg.jpg">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--bootstrap cdn-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/loginstylesheet.css">
     <!--font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--css file link-->
+    <link rel="stylesheet" href="style/login_signup_page_stylesheet.css">
 </head>
+
 <body>
     <!--nav bar-->
     <nav class="navbar navbar-toggleable-md navbar-light  bg-dark">
@@ -31,33 +32,74 @@
                         <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Home</b></button></a>
                 </li>
                 <li class="nav-item item2 active">
-                    <a href="#"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
+                    <a href="contacts.php"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Contact us</b></button></a>
                 </li>
-                <li class="nav-item item3 active"><a href="login_signup_page.php">
-                    <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Sign In/up</b></button></a>
+                <li class="nav-item item2 active">
+                    <a href="#"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container-fluid">
-    <div class="row">
-    <div class="col-sm-12">
-    <div class="row maincontainer">
-    <div class="container-fluid contactform">
-        <div class="contact-title">
-            <h1 class="loginline"><b>Log In</b></h1>
-            <h2 class="logintag">Sanjeevni is always ready<br>to serve you!</h2>
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-sm-6">
+               <a href="login.php"> <div class="col1">
+                  <div class="row">
+                   <img class="img-fluid desimg" src="image/hospital1.jpg">
+                    </div> 
+                    <pre class="des">Hospital login</pre>
+                </div>
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <a href="sign_up.php"><div class="col2">
+                  <div class="row">
+                   <img class="img-fluid desimg" src="image/hospital2.jpg">
+                   </div>
+                   <pre class="des">hospital sign up</pre>
+                </div>
+                </a>
+            </div>
         </div>
-        <div class="contact-form">
-            <form  action="" method="post">
-                <input name="email" type="email" class="form-control" placeholder="your email" autocomplete="off" required><br>
-                <input name="password" type="password" class="form-control" placeholder="password" required><br>
-                <input name="login" type="submit" class="submit" value="Log In">
-            </form>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="blood_bank_login_page.php"><div class="col1">
+                  <div class="row">
+                   <img class="img-fluid desimg" src="image/bloodbank1.png">
+                   </div>
+                   <pre class="des">blood bank login</pre>
+                </div>
+                </a>
+            </div>
+            <div class="col-sm-6">
+               <a href="blood_bank_signup.php"> <div class="col2">
+                  <div class="row">
+                   <img class="img-fluid desimg" src="image/bloodbank2.jpg">
+                   </div>
+                   <pre class="des">blood bank signup</pre>
+                </div>
+                </a>
+            </div>
         </div>
-    </div>
-        </div>
-        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="blood_donor_login_page.php"><div class="col1">
+                  <div class="row">
+                   <img class="img-fluid desimg" src="image/blooddonor1.jpg">
+                   </div>
+                   <pre class="des">blood donor login</pre>
+                </div>
+                </a>
+            </div>
+            <div class="col-sm-6">
+               <a href="blood_donor_signup.php"> <div class="col2">
+                   <div class="row">
+                    <img class="img-fluid desimg" src="image/blooddonor2.jpg">
+                   </div>
+                   <pre class="des">blood donor signup</pre>
+                </div>
+                </a>
+            </div>
         </div>
     </div>
     <footer>
@@ -77,4 +119,5 @@
         </div>
     </footer>
 </body>
+
 </html>

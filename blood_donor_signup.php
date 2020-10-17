@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<?php include("login_script.php")?>
 <html>
 <head>
-    <title>Sanjeevni.com/log_in_page</title>
+    <title>Sanjeevni.com/bood_donor_sign_up_page</title>
     <!--required meta tag-->
     <meta charset="utf-8">
-    <link rel="icon" href="images/logoimg.jpg">
+    <link rel="icon" href="image/logoimg.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--bootstrap cdn-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/loginstylesheet.css">
+    <link rel="stylesheet" href="style/blood_donor_signup_stylesheet.css">
+    <script src="address_script.js"></script>
     <!--font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <!--nav bar-->
     <nav class="navbar navbar-toggleable-md navbar-light  bg-dark">
@@ -34,31 +35,57 @@
                     <a href="#"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
                 </li>
                 <li class="nav-item item3 active"><a href="login_signup_page.php">
-                    <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Sign In/up</b></button></a>
+                        <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Sign In/up</b></button></a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="container-fluid">
-    <div class="row">
-    <div class="col-sm-12">
-    <div class="row maincontainer">
-    <div class="container-fluid contactform">
-        <div class="contact-title">
-            <h1 class="loginline"><b>Log In</b></h1>
-            <h2 class="logintag">Sanjeevni is always ready<br>to serve you!</h2>
-        </div>
-        <div class="contact-form">
-            <form  action="" method="post">
-                <input name="email" type="email" class="form-control" placeholder="your email" autocomplete="off" required><br>
-                <input name="password" type="password" class="form-control" placeholder="password" required><br>
-                <input name="login" type="submit" class="submit" value="Log In">
-            </form>
-        </div>
-    </div>
-        </div>
-        </div>
-        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row maincontainer">
+                    <div class="container-fluid contactform">
+                        <div class="contact-title">
+                            <h1 class="signupline"><b>Blood Donor Sign up</b></h1>
+                            <h2 class="signuptag">Sanjeevni is always ready<br>to serve you!</h2>
+                        </div>
+                        <div class="contact-form">
+                            <form action="" method="post">
+                                <input name="email" type="email" class="form-control" placeholder="Email" autocomplete="off" required><br>
+                                <input name="make_password" type="password" class="form-control" placeholder="Make Password" required><br>
+                                <input name="donor_name" type="text" class="form-control" placeholder="Donor Name" autocomplete="off" required><br>
+                                <input name="donor_age" type="text" class="form-control" placeholder="Donor Age" autocomplete="off" required><br>
+                                <input name="address" type="text" class="form-control" placeholder="Donor Address" autocomplete="off" required><br>
+                                <select name="country" class="form-control" id="countySel">
+                                    <option value="" selected="selected">Select Country</option>
+                                </select>
+                                <select name="state" class="form-control" id="stateSel">
+                                    <option value="" selected="selected">Select State</option>
+                                </select>
+                                <br>
+                                <select name="district" class="form-control" id="districtSel">
+                                    <option value="" selected="selected">Select district</option>
+                                </select><br>
+                                <input name="donor_phone_no" type="text" class="form-control" placeholder="Donor Phone Number" autocomplete="off" required><br>
+                                <select name="blood_grp" class="form-control">
+                                    <option>Donor Blood Group</option>
+                                    <option>A+</option>
+                                    <option>A-</option>
+                                    <option>B+</option>
+                                    <option>B-</option>
+                                    <option>AB+</option>
+                                    <option>AB-</option>
+                                    <option>O+</option>
+                                    <option>O-</option>
+                                </select><br>
+                                <input name="signup" type="submit" class="submit" value="sign up">
+                            </form>
+                        </div>
+                        <?php include('blood_donor_signup_script.php'); ?>
+                    </div>
+                </div>
+            </div>
+        </div>  
     </div>
     <footer>
         <div class="fluid-container f1">
@@ -77,4 +104,5 @@
         </div>
     </footer>
 </body>
+
 </html>

@@ -30,6 +30,9 @@
                 <li class="nav-item item1 active"><a href="edit_profile.php">
                         <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Edit Account</b></button></a>
                 </li>
+                <li class="nav-item item1 active"><a href="#">
+                        <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Edit Doctor list</b></button></a>
+                </li>
                 <li class="nav-item item2 active">
                     <a href="logout_script.php"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>LOG OUT</b></button></a>
                 </li>

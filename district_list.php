@@ -75,7 +75,7 @@
                 <a href="#">Faizabad</a>
                 <a href="#">Farrukhabad</a>
                 <a href="#">Fatehpur</a>
-                <a href="#">Firozabad</a>
+                <a href="firozabad.php">Firozabad</a>
                 <a href="#">Gautam Buddha Nagar</a>
                 <a href="#">Ghaziabad</a>
                 <a href="#">Ghazipur</a>
@@ -466,7 +466,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="firozabad_list.html">
+                    <a href="firozabad.php">
                         <div class="card">
                             <img class="card-img-top" src="image/firozabad_img.jpg" alt="Card image cap">
                             <div class="card-block">

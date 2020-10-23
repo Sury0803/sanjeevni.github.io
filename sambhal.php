@@ -41,9 +41,9 @@ global $con;
               <div class="row">
                <div class="col1">
                 <?php
-                $users="SELECT * FROM `user` WHERE `district`='Firozabad'";
+                $users="SELECT * FROM `user` WHERE `district`='Sambhal'";
                 $run_user=mysqli_query($con,$users);
-                echo"</br><h3>Hospitals in<br> Firozabad</h3><hr>";
+                echo"</br><h3>Hospitals in<br> Sambhal</h3><hr>";
                 while($row_user=mysqli_fetch_array($run_user)){
                     $user_id=$row_user['id'];
                     $h_name=$row_user['hospital_name'];
@@ -58,9 +58,9 @@ global $con;
               <div class="row">
                <div class="col1">
                 <?php
-                $users="SELECT * FROM `blood_bank` WHERE `district`='Firozabad'";
+                $users="SELECT * FROM `blood_bank` WHERE `district`='Sambhal'";
                 $run_user=mysqli_query($con,$users);
-                echo"</br><h3>Blood Bank in<br> Firozabad</h3><hr>";
+                echo"</br><h3>Blood Bank in<br> Sambhal</h3><hr>";
                 while($row_user=mysqli_fetch_array($run_user)){
                     $user_id=$row_user['id'];
                     $h_name=$row_user['name'];
@@ -76,9 +76,9 @@ global $con;
               <div class="row">
                <div class="col1">
                 <?php
-                $users="SELECT * FROM `blood_donor` WHERE `district`='Firozabad'";
+                $users="SELECT * FROM `blood_donor` WHERE `district`='Sambhal'";
                 $run_user=mysqli_query($con,$users);
-                echo"</br><h3>Blood Donor in<br> Firozabad</h3><hr>";
+                echo"</br><h3>Blood Donor in<br> Sambhal</h3><hr>";
                 while($row_user=mysqli_fetch_array($run_user)){
                     $user_id=$row_user['id'];
                     $h_name=$row_user['name'];

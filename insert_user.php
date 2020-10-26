@@ -26,7 +26,7 @@ if(isset($_POST['signup'])){
     $Status="verified";
     $Ver_Code=mt_rand();
     if(strlen($Password)<8){
-        echo "<script>alert('password should be maximum 8 characters!')</script>";
+        echo "<script>alert('password should be minimum 8 characters!')</script>";
         exit();
     }
     

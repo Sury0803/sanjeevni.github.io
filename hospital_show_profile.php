@@ -25,6 +25,30 @@ $Male_Doctor=$row['male_doctor'];
 $Female_Doctor=$row['female_doctor'];
 $Image=$row['image'];
 }
+
+if(isset($_POST['appointment'])){
+    global $User_Id;
+    $D_Name=mysqli_real_escape_string($con,$_POST['d_name']);
+    $Email=mysqli_real_escape_string($con,$_POST['email']);
+    $Name=mysqli_real_escape_string($con,$_POST['p_name']);
+    $Disease=mysqli_real_escape_string($con,$_POST['disease']);
+    $Date=mysqli_real_escape_string($con,$_POST['date']);
+    $Time1=mysqli_real_escape_string($con,$_POST['t1']);
+    $Time2=mysqli_real_escape_string($con,$_POST['t2']);
+    $Time3=mysqli_real_escape_string($con,$_POST['t3']);
+    $Remark=mysqli_real_escape_string($con,$_POST['remark']);
+    
+    $insert="INSERT INTO `app`(`user_id`, `doctor_name`, `email`, `pateint_name`,`disease`, `date`, `time1`, `time2`, `time3`,`req_time`,`remark`)VALUES('$User_Id','$D_Name','$Email','$Name','$Disease','$Date','$Time1','$Time2','$Time3',NOW(),'$Remark')";
+    $query=mysqli_query($con,$insert);
+    
+    if($query){
+        echo"<script>alert('appointment request recieved successfully.your appointment schedule send on your email as soon as possible.')</script>";
+    }
+    else{
+        echo"<script>alert('error occoured.....')</script>";
+    }
+    
+}
 ?>
 <html>
 
@@ -55,6 +79,9 @@ $Image=$row['image'];
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
+               <li class="nav-item item1 active"><a href="index.php">
+                        <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Home</b></button></a>
+                </li>
                 <li class="nav-item item1 active"><a href="district_list.php">
                         <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>District Page</b></button></a>
                 </li>
@@ -160,8 +187,8 @@ $Image=$row['image'];
                 </div>
                 <div class="col-sm-4">
                     <div class="col2">
-                       <div class="row">
-                        <button class="appointment" type="submit" name="submit" >Take Appointment</button>
+                        <div class="row">
+                            <button type="button" class="appointment" data-toggle="modal" data-target="#myModal">Take Appointment</button>
                         </div>
                     </div>
                 </div>
@@ -170,6 +197,39 @@ $Image=$row['image'];
             </div>
         </div>
     </div>
+    <!--Appointment modal-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Take Appointment</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="" method="post" class="form-control">
+                        <input name="d_name" class="form-control" type="text" placeholder="Enter Doctor Name">
+                        <br>
+                        <input name="email" class="form-control" type="email" placeholder="Your Email" ?><br>
+                        <input name="p_name" class="form-control" type="text" placeholder="Your Name"><br>
+                        <input name="disease" class="form-control" type="text" placeholder="List Disease"><br>
+                        <input name="date" class="form-control" type="text" placeholder="Appointment Date"><br>
+                        <input name="t1" class="form-control" type="text" placeholder="Enter Your 1st Priority Time Interval"><br>
+                        <input name="t2" class="form-control" type="text" placeholder="Enter Your 2st Priority Time Interval"><br>
+                        <input name="t3" class="form-control" type="text" placeholder="Enter Your 3st Priority Time Interval"><br>
+                           <textarea name="remark" class="form-control" placeholder="Any Remark"></textarea><br>
+                            <input name="appointment" type="submit" class="btn btn-danger" value="Done"><br>
+
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
     <footer>
         <div class="fluid-container f1">
             <div class="container-fluid ">

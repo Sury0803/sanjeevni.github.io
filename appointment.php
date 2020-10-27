@@ -1,13 +1,3 @@
-                    <?php
-include("home_script.php");
-include("includes/connection.php");
-$users="SELECT * FROM `app` WHERE `user_id`='$id'";
-$run_user=mysqli_query($con,$users);
- while($row_user=mysqli_fetch_array($run_user)){
-$post_id=$row_user['post_id'];
-$p_name=$row_user['pateint_name'];
-}
-?>
                     <!DOCTYPE html>
                     <html>
 
@@ -52,9 +42,8 @@ $p_name=$row_user['pateint_name'];
                                     <div class="row">
                                         <div class="col1">
                                             <?php
+                                            include("home_script.php");
                                             include("includes/connection.php");
-                                            if(isset($_GET['id'])){
-                                                $id=$_GET['id'];
                                             $users="SELECT * FROM `app` WHERE `user_id`='$id'";
                                             $run_user=mysqli_query($con,$users);
                                                 echo"<h1 style='color:darkblue; text-align:center; font-family:sans-serif;'>Appointments</h1><hr>";
@@ -62,7 +51,7 @@ $p_name=$row_user['pateint_name'];
                                                 $post_id=$row_user['post_id'];
                                                 $p_name=$row_user['pateint_name'];
                                                 echo"<a class='name' href='appointment_detail.php?id=$post_id' >$p_name</a><hr>";
-                                            }}
+                                            }
                                             ?>
                                         </div>
                                     </div>

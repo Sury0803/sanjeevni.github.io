@@ -23,6 +23,7 @@ $Ambulance_Availability=$row['ambulance_availability'];
 $Ambulance_Phone_No=$row['amubulance_phone_no'];
 $Male_Doctor=$row['male_doctor'];
 $Female_Doctor=$row['female_doctor'];
+$Update=$row['reg_date'];
 $Image=$row['image'];
 }
 
@@ -66,6 +67,7 @@ if(isset($_POST['appointment'])){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--css file link-->
     <link rel="stylesheet" href="style/hospital_show_profile_stylesheet.css">
+    <link rel="stylesheet" href="style/show_doctlist.css">
 </head>
 
 <body>
@@ -187,16 +189,55 @@ if(isset($_POST['appointment'])){
                 </div>
                 <div class="col-sm-4">
                     <div class="col2">
+                            <pre class="title">Last Updated On:</pre>
+                            <p class="info"><?php echo"$Update"; ?></p>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="col3">
                         <div class="row">
                             <button type="button" class="appointment" data-toggle="modal" data-target="#myModal">Take Appointment</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                </div>
             </div>
         </div>
     </div>
+    
+    <div class="c3">
+    <h1 class="adddoctor">doctors list</h1>
+   <?php 
+        $user="SELECT * FROM `doctor_list` WHERE `user_id`='$User_Id'";
+        $post=mysqli_query($con,$user);
+        while($row_posts=mysqli_fetch_array($post)){
+        $Doctor_Name=$row_posts['doctor_name'];
+        $Spe=$row_posts['specialization'];
+        $Time=$row_posts['time'];
+        
+        
+        
+        echo"<div class='fluid-container vj'>
+    <div class='row'>
+            <div class='col-sm-4'>
+                <div class='col4'>
+                    <h1 class='infor'>$Doctor_Name</h1>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <div class='col4'>
+                    <h1 class='infor'>$Spe</h1>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <div class='col4'>
+                    <h1 class='infor'>$Time</h1>
+                </div>
+            </div>
+        </div>
+        </div>";}
+        ?>
+        </div>
+    
     <!--Appointment modal-->
     <div class="modal" id="myModal">
         <div class="modal-dialog">

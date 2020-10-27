@@ -33,9 +33,12 @@ include("home_script.php");
                 <li class="nav-item item1 active"><a href="edit_profile.php">
                         <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Edit Account</b></button></a>
                 </li>
+                <li class="nav-item item1 active"><a href="doctor_list.php">
+                        <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Edit Doctors</b></button></a>
+                </li>
                 <li class="nav-item item1 active">
-                    <?php   echo"<a href='appointment.php?id=$id'>
-                        <button class='contactbtn btn-outline-success my-2 my-sm-0' type='submit'><b>Appointments</b></button></a>"; ?>
+                    <a href="appointment.php">
+                        <button class='contactbtn btn-outline-success my-2 my-sm-0' type='submit'><b>Appointments</b></button></a>
                 </li>
                 <li class="nav-item item2 active">
                     <a href="logout_script.php"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>LOG OUT</b></button></a>

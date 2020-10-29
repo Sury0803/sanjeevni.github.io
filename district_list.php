@@ -3,7 +3,7 @@
 
 <head>
     <title>sanjeevni.com/district_page/</title>
-    <link rel="icon" href="images/logoimg.jpg">
+    <link rel="icon" href="image/logoimg.jpg">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--bootstrap cdn-->
@@ -32,9 +32,9 @@
                         <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Home</b></button></a>
                 </li>
                 <li class="nav-item item2 active">
-                    <a href="#"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
+                    <a href="chatbot.html"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
                 </li>
-                <li class="nav-item item3 active"><a href="sign_up.php">
+                <li class="nav-item item3 active"><a href="login_signup_page.php">
                         <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Sign In/up</b></button></a>
                 </li>
             </ul>
@@ -47,81 +47,81 @@
             <button onclick="myFunction()" class="dropbtn">search your district here</button>
             <div id="myDropdown" class="dropdown-content">
                 <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                <a href="agra.php">Agra</a>
-                <a href="aligarh.php">Aligarh</a>
-                <a href="allahabad.php">Allahabad</a>
-                <a href="ambedkar_nagar.php">Ambedkar Nagar</a>
-                <a href="amethi.php">Amethi</a>
-                <a href="amroha.php">Amroha</a>
-                <a href="auraiya.php">Auraiya</a>
-                <a href="azamgarh.php">Azamgarh</a>
-                <a href="baghpat.php">Baghpat</a>
-                <a href="bahraich.php">Bahraich</a>
-                <a href="ballia.php">Ballia</a>
-                <a href="balrampur.php">Balrampur</a>
-                <a href="banda.php">Banda</a>
-                <a href="barabanki.php">Barabanki</a>
-                <a href="bareily.php">Bareilly</a>
-                <a href="basti.php">Basti</a>
-                <a href="bhadohi.php">Bhadohi</a>
-                <a href="bijnor.php">Bijnor</a>
-                <a href="budaun.php">Budaun</a>
-                <a href="bulandshahar.php">Bulandshahr</a>
-                <a href="chandouli.php">Chandauli</a>
-                <a href="chitrakoot.php">Chitrakoot</a>
-                <a href="deoria.php">Deoria</a>
-                <a href="etah.php">Etah</a>
-                <a href="etawa.php">Etawah</a>
-                <a href="faizabad.php">Faizabad</a>
-                <a href="farrukkhabad.php">Farrukhabad</a>
-                <a href="fatehpur.php">Fatehpur</a>
-                <a href="firozabad.php">Firozabad</a>
-                <a href="GB_nagar.php">Gautam Buddha Nagar</a>
-                <a href="ghaziabad.php">Ghaziabad</a>
-                <a href="ghazipur.php">Ghazipur</a>
-                <a href="gonda.php">Gonda</a>
-                <a href="gorakhpur.php">Gorakhpur</a>
-                <a href="hamirpur.php">Hamirpur</a>
-                <a href="hapur.php">Hapur</a>
-                <a href="hardoi.php">Hardoi</a>
-                <a href="hathras.php">Hathras</a>
-                <a href="jalaun.php">Jalaun</a>
-                <a href="jaunpur.php">Jaunpur</a>
-                <a href="jhansi.php">Jhansi</a>
-                <a href="kannauj.php">Kannauj</a>
-                <a href="kanpur_dehat.php">Kanpur Dehat</a>
-                <a href="kanpur_nagar.php">Kanpur Nagar</a>
-                <a href="kasganj.php">Kashganj</a>
-                <a href="kaushambi.php">Kaushambi</a>
-                <a href="kushinagar.php">Kushinagar</a>
-                <a href="lakhimpur.php">Lakhimpur</a>
-                <a href="lalitput.php">Lalitpur</a>
-                <a href="lucknow.php">Lucknow</a>
-                <a href="maharajganj.php">Maharajganj</a>
-                <a href="mahoba.php">Mahoba</a>
-                <a href="mainpuri.php">Mainpuri</a>
-                <a href="mathura.php">Mathura</a>
-                <a href="mau.php">Mau</a>
-                <a href="meerut.php">Meerut</a>
-                <a href="mirzapur.php">Mirzapur</a>
-                <a href="moradabad.php">Moradabad</a>
-                <a href="muzaffarnagr.php">Muzaffarnagar</a>
-                <a href="pilibhit.php">Pilibhit</a>
-                <a href="pratapgarh.php">Pratapgarh</a>
-                <a href="raebarely.php">RaeBareli</a>
-                <a href="rampur.php">Rampur</a>
-                <a href="shaharanpur.php">Saharanpur</a>
-                <a href="sambhal.php">Sambhal</a>
-                <a href="sant_kabir_nagar.php">Sant Kabir Nagar</a>
-                <a href="shahajanpur.php">Shahjahanpur</a>
-                <a href="shamli.php">Shamali</a>
-                <a href="shravasti.php">Shravasti</a>
-                <a href="siddharth_nagar.php">Siddharth Nagar</a>
-                <a href="sitapur.php">Sitapur</a>
-                <a href="sonbhadra.php">Sonbhadra</a>
-                <a href="sultanpur.php">Sultanpur</a>
-                <a href="unnao.php">Unnao</a>
-                <a href="varansi.php">Varanasi</a>
+                <a href="show_data/agra.php">Agra</a>
+                <a href="show_data/aligarh.php">Aligarh</a>
+                <a href="show_data/allahabad.php">Allahabad</a>
+                <a href="show_data/ambedkar_nagar.php">Ambedkar Nagar</a>
+                <a href="show_data/amethi.php">Amethi</a>
+                <a href="show_data/amroha.php">Amroha</a>
+                <a href="show_data/auraiya.php">Auraiya</a>
+                <a href="show_data/azamgarh.php">Azamgarh</a>
+                <a href="show_data/baghpat.php">Baghpat</a>
+                <a href="show_data/bahraich.php">Bahraich</a>
+                <a href="show_data/ballia.php">Ballia</a>
+                <a href="show_data/balrampur.php">Balrampur</a>
+                <a href="show_data/banda.php">Banda</a>
+                <a href="show_data/barabanki.php">Barabanki</a>
+                <a href="show_data/bareily.php">Bareilly</a>
+                <a href="show_data/basti.php">Basti</a>
+                <a href="show_data/bhadohi.php">Bhadohi</a>
+                <a href="show_data/bijnor.php">Bijnor</a>
+                <a href="show_data/budaun.php">Budaun</a>
+                <a href="show_data/bulandshahar.php">Bulandshahr</a>
+                <a href="show_data/chandouli.php">Chandauli</a>
+                <a href="show_data/chitrakoot.php">Chitrakoot</a>
+                <a href="show_data/deoria.php">Deoria</a>
+                <a href="show_data/etah.php">Etah</a>
+                <a href="show_data/etawa.php">Etawah</a>
+                <a href="show_data/faizabad.php">Faizabad</a>
+                <a href="show_data/farrukkhabad.php">Farrukhabad</a>
+                <a href="show_data/fatehpur.php">Fatehpur</a>
+                <a href="show_data/firozabad.php">Firozabad</a>
+                <a href="show_data/GB_nagar.php">Gautam Buddha Nagar</a>
+                <a href="show_data/ghaziabad.php">Ghaziabad</a>
+                <a href="show_data/ghazipur.php">Ghazipur</a>
+                <a href="show_data/gonda.php">Gonda</a>
+                <a href="show_data/gorakhpur.php">Gorakhpur</a>
+                <a href="show_data/hamirpur.php">Hamirpur</a>
+                <a href="show_data/hapur.php">Hapur</a>
+                <a href="show_data/hardoi.php">Hardoi</a>
+                <a href="show_data/hathras.php">Hathras</a>
+                <a href="show_data/jalaun.php">Jalaun</a>
+                <a href="show_data/jaunpur.php">Jaunpur</a>
+                <a href="show_data/jhansi.php">Jhansi</a>
+                <a href="show_data/kannauj.php">Kannauj</a>
+                <a href="show_data/kanpur_dehat.php">Kanpur Dehat</a>
+                <a href="show_data/kanpur_nagar.php">Kanpur Nagar</a>
+                <a href="show_data/kasganj.php">Kashganj</a>
+                <a href="show_data/kaushambi.php">Kaushambi</a>
+                <a href="show_data/kushinagar.php">Kushinagar</a>
+                <a href="show_data/lakhimpur.php">Lakhimpur</a>
+                <a href="show_data/lalitput.php">Lalitpur</a>
+                <a href="show_data/lucknow.php">Lucknow</a>
+                <a href="show_data/maharajganj.php">Maharajganj</a>
+                <a href="show_data/mahoba.php">Mahoba</a>
+                <a href="show_data/mainpuri.php">Mainpuri</a>
+                <a href="show_data/mathura.php">Mathura</a>
+                <a href="show_data/mau.php">Mau</a>
+                <a href="show_data/meerut.php">Meerut</a>
+                <a href="show_data/mirzapur.php">Mirzapur</a>
+                <a href="show_data/moradabad.php">Moradabad</a>
+                <a href="show_data/muzaffarnagr.php">Muzaffarnagar</a>
+                <a href="show_data/pilibhit.php">Pilibhit</a>
+                <a href="show_data/pratapgarh.php">Pratapgarh</a>
+                <a href="show_data/raebarely.php">RaeBareli</a>
+                <a href="show_data/rampur.php">Rampur</a>
+                <a href="show_data/shaharanpur.php">Saharanpur</a>
+                <a href="show_data/sambhal.php">Sambhal</a>
+                <a href="show_data/sant_kabir_nagar.php">Sant Kabir Nagar</a>
+                <a href="show_data/shahajanpur.php">Shahjahanpur</a>
+                <a href="show_data/shamli.php">Shamali</a>
+                <a href="show_data/shravasti.php">Shravasti</a>
+                <a href="show_data/siddharth_nagar.php">Siddharth Nagar</a>
+                <a href="show_data/sitapur.php">Sitapur</a>
+                <a href="show_data/sonbhadra.php">Sonbhadra</a>
+                <a href="show_data/sultanpur.php">Sultanpur</a>
+                <a href="show_data/unnao.php">Unnao</a>
+                <a href="show_data/varansi.php">Varanasi</a>
 
             </div>
         </div>
@@ -156,7 +156,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="agra.php">
+                    <a href="show_data/agra.php">
                         <div class="card-first">
                             <img class="card-img-top img" src="image/agra-taj.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -166,7 +166,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="aligarh.php">
+                    <a href="show_data/aligarh.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/aligarh.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -176,7 +176,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="allahabad.php">
+                    <a href="show_data/allahabad.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/allahabad.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -186,7 +186,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="ambedkar_nagar.php">
+                    <a href="show_data/ambedkar_nagar.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/ambedkar_nagar.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -196,7 +196,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="amethi.php">
+                    <a href="show_data/amethi.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Amethi.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -212,7 +212,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="amroha.php">
+                    <a href="show_data/amroha.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Amroha.JPG" alt="Card image cap">
                             <div class="card-block">
@@ -222,7 +222,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="auraiya.php">
+                    <a href="show_data/auraiya.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/auraiya.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -232,7 +232,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="azamgarh.php">
+                    <a href="show_data/azamgarh.php">
                         <div class="card">
                             <img class="card-img-top" src="image/azamgarh.png" alt="Card image cap">
                             <div class="card-block">
@@ -242,7 +242,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="baghpat.php">
+                    <a href="show_data/baghpat.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/baghpat.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -252,7 +252,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="bahraich.php">
+                    <a href="show_data/bahraich.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/bahraich.JPG" alt="Card image cap">
                             <div class="card-block">
@@ -268,7 +268,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="ballia.php">
+                    <a href="show_data/ballia.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/balia.JPG" alt="Card image cap">
                             <div class="card-block">
@@ -278,7 +278,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="balrampur.php">
+                    <a href="show_data/balrampur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/balrampur.JPG" alt="Card image cap">
                             <div class="card-block">
@@ -288,7 +288,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="banda.php">
+                    <a href="show_data/banda.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/banda.JPG" alt="Card image cap">
                             <div class="card-block">
@@ -298,7 +298,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="barabanki.php">
+                    <a href="show_data/barabanki.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Barabanki.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -308,7 +308,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="bareily.php">
+                    <a href="show_data/bareily.php">
                         <div class="card">
                             <img class="card-img-top" src="image/Bareilly.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -324,7 +324,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="basti.php">
+                    <a href="show_data/basti.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Basti.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -334,7 +334,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="bhadohi.php">
+                    <a href="show_data/bhadohi.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Bhadohi.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -344,7 +344,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="bijnor.php">
+                    <a href="show_data/bijnor.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Bijnor.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -354,7 +354,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="budaun.php">
+                    <a href="show_data/budaun.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Budaun.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -364,7 +364,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="bulandshahar.php">
+                    <a href="show_data/bulandshahar.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Bulandshahr.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -380,7 +380,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="chandouli.php">
+                    <a href="show_data/chandouli.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/chandouli_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -390,7 +390,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="chitrakoot.php">
+                    <a href="show_data/chitrakoot.php">
                         <div class="card">
                             <img class="card-img-top" src="image/chitrakoot_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -400,7 +400,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="deoria.php">
+                    <a href="show_data/deoria.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/deoria_img.webp" alt="Card image cap">
                             <div class="card-block">
@@ -410,7 +410,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="etah.php">
+                    <a href="show_data/etah.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/etah_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -420,7 +420,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="etawa.php">
+                    <a href="show_data/etawa.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/etawa_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -436,7 +436,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="faizabad.php">
+                    <a href="show_data/faizabad.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/etawa_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -446,7 +446,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="farrukkhabad.php">
+                    <a href="show_data/farrukkhabad.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/farrukkhabad_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -456,7 +456,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="fatehpur.php">
+                    <a href="show_data/fatehpur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/fatehpur_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -466,7 +466,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="firozabad.php">
+                    <a href="show_data/firozabad.php">
                         <div class="card">
                             <img class="card-img-top" src="image/firozabad_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -476,7 +476,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="GB_nagar.php">
+                    <a href="show_data/GB_nagar.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/gb%20nagar_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -492,7 +492,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="ghaziabad.php">
+                    <a href="show_data/ghaziabad.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/gaziabad_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -502,7 +502,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="ghazipur.php">
+                    <a href="show_data/ghazipur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/gazipur_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -512,7 +512,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="gonda.php">
+                    <a href="show_data/gonda.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/gonda_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -522,7 +522,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="gorakhpur.php">
+                    <a href="show_data/gorakhpur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Gorakhpur_img.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -532,7 +532,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="hamirpur.php">
+                    <a href="show_data/hamirpur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Hamirpur.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -548,7 +548,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="hapur.php">
+                    <a href="show_data/hapur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Hapur.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -558,7 +558,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="hardoi.php">
+                    <a href="show_data/hardoi.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Hardoi.png" alt="Card image cap">
                             <div class="card-block">
@@ -568,7 +568,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="hathras.php">
+                    <a href="show_data/hathras.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Hathras.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -578,7 +578,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="jalaun.php">
+                    <a href="show_data/jalaun.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Jalaun.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -588,7 +588,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="jaunpur.php">
+                    <a href="show_data/jaunpur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Jaunpur.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -604,7 +604,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="jhansi.php">
+                    <a href="show_data/jhansi.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Jhansi.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -614,7 +614,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="kannauj.php">
+                    <a href="show_data/kannauj.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Kannaunj.png" alt="Card image cap">
                             <div class="card-block">
@@ -624,7 +624,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="kanpur_dehat.php">
+                    <a href="show_data/kanpur_dehat.php">
                         <div class="card">
                             <img class="card-img-top" src="image/Kanpur%20Dehat.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -634,7 +634,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="kanpur_nagar.php">
+                    <a href="show_data/kanpur_nagar.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Kanpur%20Nagar.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -644,7 +644,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="kasganj.php">
+                    <a href="show_data/kasganj.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Kasganj.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -660,7 +660,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="kaushambi.php">
+                    <a href="show_data/kaushambi.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Kaushambhi.png" alt="Card image cap">
                             <div class="card-block">
@@ -670,7 +670,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="kushinagar.php">
+                    <a href="show_data/kushinagar.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Khusinagar.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -680,7 +680,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="lakhimpur.php">
+                    <a href="show_data/lakhimpur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Lakhimpur%20Kheri.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -690,7 +690,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="lalitput.php">
+                    <a href="show_data/lalitput.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/Lalitpur.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -700,7 +700,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="lucknow.php">
+                    <a href="show_data/lucknow.php">
                         <div class="card">
                             <img class="card-img-top" src="image/Lucknow.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -718,7 +718,7 @@
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
-                    <a href="maharajganj.php">
+                    <a href="show_data/maharajganj.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/mahrajganj.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -728,7 +728,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="mahoba.php">
+                    <a href="show_data/mahoba.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/mahoba.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -738,7 +738,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="mainpuri.php">
+                    <a href="show_data/mainpuri.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/mainpuri1.jpg" alt="Card image cap">
                             <div class="card-block">
@@ -748,7 +748,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="mathura.php">
+                    <a href="show_data/mathura.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/mathura.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -758,7 +758,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="mau.php">
+                    <a href="show_data/mau.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/mau1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -777,7 +777,7 @@
             <div class="row">
 
                 <div class="card-deck">
-                    <a href="meerut.php">
+                    <a href="show_data/meerut.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/meerut.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -787,7 +787,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="mirzapur.php">
+                    <a href="show_data/mirzapur.php">
                         <div class="card">
                             <img class="card-img-top" src="image/mirzapur1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -797,7 +797,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="moradabad.php">
+                    <a href="show_data/moradabad.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/moradabad1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -807,7 +807,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="muzaffarnagr.php">
+                    <a href="show_data/muzaffarnagr.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/muzaffarnagar1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -817,7 +817,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="pilibhit.php">
+                    <a href="show_data/pilibhit.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/pilibhit1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -837,7 +837,7 @@
             <div class="row">
 
                 <div class="card-deck">
-                    <a href="pratapgarh.php">
+                    <a href="show_data/pratapgarh.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/pratapgarh.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -847,7 +847,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="raebarely.php">
+                    <a href="show_data/raebarely.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/raebarele1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -857,7 +857,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="rampur.php">
+                    <a href="show_data/rampur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/rampur.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -867,7 +867,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="shaharanpur.php">
+                    <a href="show_data/shaharanpur.php">
                         <div class="card">
                             <img class="card-img-top" src="image/sharanpur1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -877,7 +877,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="sambhal.php">
+                    <a href="show_data/sambhal.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/sambhal1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -897,7 +897,7 @@
 
 
                 <div class="card-deck">
-                    <a href="sant_kabir_nagar.php">
+                    <a href="show_data/sant_kabir_nagar.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/sant%20kabir.PNG" alt="Card image cap">
                             <div class="card-block ">
@@ -907,7 +907,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="shahajanpur.php">
+                    <a href="show_data/shahajanpur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/shajhanpur.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -917,7 +917,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="shamli.php">
+                    <a href="show_data/shamli.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/shamli1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -927,7 +927,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="shravasti.php">
+                    <a href="show_data/shravasti.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/shravasti.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -937,7 +937,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="siddharth_nagar.php">
+                    <a href="show_data/siddharth_nagar.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/siddarthngr.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -956,7 +956,7 @@
             <div class="row">
 
                 <div class="card-deck">
-                    <a href="sitapur.php">
+                    <a href="show_data/sitapur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/sitapur1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -966,7 +966,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="sonbhadra.php">
+                    <a href="show_data/sonbhadra.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/sonbhadra.JPG" alt="Card image cap">
                             <div class="card-block">
@@ -976,7 +976,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="sultanpur.php">
+                    <a href="show_data/sultanpur.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/sultanpur1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -986,7 +986,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="unnao.php">
+                    <a href="show_data/unnao.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/unnao1.PNG" alt="Card image cap">
                             <div class="card-block">
@@ -996,7 +996,7 @@
                     </a>
                 </div>
                 <div class="card-deck">
-                    <a href="varansi.php">
+                    <a href="show_data/varansi.php">
                         <div class="card-first">
                             <img class="card-img-top" src="image/varanasi1.JPG" alt="Card image cap">
                             <div class="card-block">

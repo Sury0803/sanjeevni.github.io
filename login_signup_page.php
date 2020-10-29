@@ -3,7 +3,7 @@
 
 <head>
     <title>sanjeevni.com</title>
-    <link rel="icon" href="images/logoimg.jpg">
+    <link rel="icon" href="image/logoimg.jpg">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--bootstrap cdn-->
@@ -35,7 +35,7 @@
                     <a href="contacts.php"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Contact us</b></button></a>
                 </li>
                 <li class="nav-item item2 active">
-                    <a href="#"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
+                    <a href="chatbot.html"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
                 </li>
             </ul>
         </div>
@@ -43,7 +43,7 @@
     <div class="fluid-container">
         <div class="row">
             <div class="col-sm-6">
-               <a href="login.php"> <div class="col1">
+               <a href="hospital/login.php"> <div class="col1">
                   <div class="row">
                    <img class="img-fluid desimg" src="image/hospital1.jpg">
                     </div> 
@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="col-sm-6">
-                <a href="sign_up.php"><div class="col2">
+                <a href="hospital/sign_up.php"><div class="col2">
                   <div class="row">
                    <img class="img-fluid desimg" src="image/hospital2.jpg">
                    </div>
@@ -63,7 +63,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <a href="blood_bank_login_page.php"><div class="col1">
+                <a href="blood_bank/blood_bank_login_page.php"><div class="col1">
                   <div class="row">
                    <img class="img-fluid desimg" src="image/bloodbank1.png">
                    </div>
@@ -72,7 +72,7 @@
                 </a>
             </div>
             <div class="col-sm-6">
-               <a href="blood_bank_signup.php"> <div class="col2">
+               <a href="blood_bank/blood_bank_signup.php"> <div class="col2">
                   <div class="row">
                    <img class="img-fluid desimg" src="image/bloodbank2.jpg">
                    </div>
@@ -83,7 +83,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <a href="blood_donor_login_page.php"><div class="col1">
+                <a href="blood_donor/blood_donor_login_page.php"><div class="col1">
                   <div class="row">
                    <img class="img-fluid desimg" src="image/blooddonor1.jpg">
                    </div>
@@ -92,7 +92,7 @@
                 </a>
             </div>
             <div class="col-sm-6">
-               <a href="blood_donor_signup.php"> <div class="col2">
+               <a href="blood_donor/blood_donor_signup.php"> <div class="col2">
                    <div class="row">
                     <img class="img-fluid desimg" src="image/blooddonor2.jpg">
                    </div>

@@ -17,7 +17,7 @@ if(isset($_POST['update'])){
     
     move_uploaded_file($image_tmp,"../users/$u_image");
     
-    $update="UPDATE `blood_bank` SET `pass`='$u_Pass',`name`='$u_B_B_Name',`address`='$u_Address',`phone_no`='$u_Phone_No',`a_positive`='$u_A_Positive',`a_negative`='$u_A_Negative',`b_positiveb`='$u_B_Positive',`b_negative`='$u_B_Negative',`ab_positive`='$u_AB_Positive',`ab_negative`='$u_AB_Negative',`o_positive`='$u_O_Positive',`o_negative`='$u_O_Negative',`image`='$u_image' WHERE `id`='$id' ";
+    $update="UPDATE `blood_bank` SET `pass`='$u_Pass',`name`='$u_B_B_Name',`address`='$u_Address',`phone_no`='$u_Phone_No',`a_positive`='$u_A_Positive',`a_negative`='$u_A_Negative',`b_positiveb`='$u_B_Positive',`b_negative`='$u_B_Negative',`ab_positive`='$u_AB_Positive',`ab_negative`='$u_AB_Negative',`o_positive`='$u_O_Positive',`o_negative`='$u_O_Negative',`reg_date`=NOW(),`image`='$u_image' WHERE `id`='$id' ";
     
     $run=mysqli_query($con,$update);
     

@@ -16,6 +16,8 @@ $District=$row['district'];
 $D_Phone_No=$row['phone_no'];
 $Blood_Group=$row['blood_grp'];
 $Image=$row['image'];
+$reg=$row['reg_date'];
+$desease=$row['any_desease'];
 }
 ?>
 <html>
@@ -95,6 +97,20 @@ $Image=$row['image'];
                 <div class="col1">
                     <p class="title">district:</p>
                     <p class="info"><?php echo"$District"; ?></p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+             <div class="col2">
+                    <p class="title">Donor have Desease:</p>
+                    <p class="info"><?php echo"$desease"; ?></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="col1">
+                    <p class="title">Last Updated on:</p>
+                    <p class="info"><?php echo"$reg"; ?></p>
                 </div>
             </div>
             <div class="col-sm-6">

@@ -19,7 +19,7 @@ if(isset($_POST['update'])){
     
     move_uploaded_file($image_tmp,"../users/$u_image");
     
-    $update="UPDATE `user` SET `pass`='$u_Pass',`hospital_name`='$u_Hospital_Name',`type_of_hospital`='$u_H_Type',`hospital_address`='$u_Address',`h_phone_no`='$u_H_Phone_No',`emergency`='$u_Emergency',`bed`='$u_Beds',`icu`='$u_ICU',`ventilator`='$u_Ventilator',`oxygen`='$u_Oxygen',`ambulance_availability`='$u_Ambulance_Availability',`amubulance_phone_no`='$u_Ambulance_Phone_No',`male_doctor`='$u_Male_Doctor',`female_doctor`='$u_Female_Doctor',`image`='$u_image' WHERE `id`='$id' ";
+    $update="UPDATE `hospital` SET `pass`='$u_Pass',`hospital_name`='$u_Hospital_Name',`type_of_hospital`='$u_H_Type',`hospital_address`='$u_Address',`h_phone_no`='$u_H_Phone_No',`emergency`='$u_Emergency',`bed`='$u_Beds',`icu`='$u_ICU',`ventilator`='$u_Ventilator',`oxygen`='$u_Oxygen',`ambulance_availability`='$u_Ambulance_Availability',`amubulance_phone_no`='$u_Ambulance_Phone_No',`male_doctor`='$u_Male_Doctor',`female_doctor`='$u_Female_Doctor',`reg_date`=NOW(),`image`='$u_image' WHERE `id`='$id' ";
     
     $run=mysqli_query($con,$update);
     

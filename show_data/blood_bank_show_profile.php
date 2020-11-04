@@ -22,6 +22,7 @@ $AB_Negative=$row['ab_negative'];
 $O_Positive=$row['o_positive'];
 $O_Negative=$row['o_negative'];
 $Image=$row['image'];
+    $reg=$row['reg_date'];
 }
 ?>
 <html>
@@ -72,80 +73,80 @@ $Image=$row['image'];
             <div class="row">
             <div class="col-sm-4">
                 <div class="col1">
-                    <p class="title">blood bank name:</p>
-                    <p class="info"><?php echo"$B_Name"; ?></p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="col2">
                     <p class="title">Address:</p>
                     <p class="info"><?php echo"$Address"; ?></p>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="col3">
+                <div class="col2">
                     <p class="title">District:</p>
                     <p class="info"><?php echo"$District"; ?></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col3">
+                    <pre class="title">blood bank Phone No.:</pre>
+                    <p class="info"><?php echo"$B_Phone_No"; ?></p>
                 </div>
             </div>
         </div>
                     <div class="row">
             <div class="col-sm-4">
                 <div class="col1">
-                    <pre class="title">blood bank Phone No.:</pre>
-                    <p class="info"><?php echo"$B_Phone_No"; ?></p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="col2">
                     <p class="title">A+ blood group:</p>
                     <p class="info"><?php echo"$A_Positive"; ?></p>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="col3">
+                <div class="col2">
                     <p class="title">A- blood group:</p>
                     <p class="info"><?php echo"$A_Negative"; ?></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col3">
+                    <p class="title">B+ blood group:</p>
+                    <p class="info"><?php echo"$B_Positive"; ?></p>
                 </div>
             </div>
         </div>
                         <div class="row">
             <div class="col-sm-4">
                 <div class="col1">
-                    <p class="title">B+ blood group:</p>
-                    <p class="info"><?php echo"$B_Positive"; ?></p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="col2">
                     <p class="title">B- blood group:</p>
                     <p class="info"><?php echo"$B_Negative"; ?></p>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="col3">
+                <div class="col2">
                     <p class="title">AB+ blood group:</p>
                     <p class="info"><?php echo"$AB_Positive"; ?></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col3">
+                    <p class="title">AB- blood group:</p>
+                    <p class="info"><?php echo"$AB_Negative"; ?></p>
                 </div>
             </div>
         </div>
                         <div class="row">
             <div class="col-sm-4">
                 <div class="col1">
-                    <p class="title">AB- blood group:</p>
-                    <p class="info"><?php echo"$AB_Negative"; ?></p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="col2">
                      <p class="title">O+ blood group:</p>
                     <p class="info"><?php echo"$O_Positive"; ?></p>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="col3">
+                <div class="col2">
                     <p class="title">O- blood group:</p>
                     <p class="info"><?php echo"$O_Negative"; ?></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col3">
+                    <p class="title">Last Updated On:</p>
+                    <p class="info"><?php echo"$reg"; ?></p>
                 </div>
             </div>
         </div>

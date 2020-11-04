@@ -94,8 +94,21 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="col2">
-                            <button name="update" type="submit" class="update_btn">update</button>
+                            <p class="title">desease:</p>
+                            <input name="u_desease" type="text" class="form-control" value="<?php echo"$desease"; ?>">
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="col1">
+                            
+                            <button name="update" type="submit" class="update_btn">update</button>
+                       
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        
                     </div>
                 </div>
             </div>

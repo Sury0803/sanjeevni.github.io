@@ -47,7 +47,7 @@ include("home_script.php");
         </div>
     </nav>
     <div class="c1">
-        <div class="fluid-container">
+        <div class="fluid-container details">
             <div class="row">
             <?php echo"<img class='img-fluid introimg' style='border: 5px solid white; box-shadow: 0 0 16px 7px rgba(0,150,255,0.91) ;' src='../users/$Image'>"; ?>
             </div>

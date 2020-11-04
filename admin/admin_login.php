@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include("admin_login_script.php"); ?>
 <html>
 
 <head>

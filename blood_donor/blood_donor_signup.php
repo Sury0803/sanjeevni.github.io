@@ -67,6 +67,7 @@
                                     <option value="" selected="selected">Select district</option>
                                 </select><br>
                                 <input name="donor_phone_no" type="text" class="form-control" placeholder="Donor Phone Number" autocomplete="off" required><br>
+                                <input name="donor_disease" type="text" class="form-control" placeholder="Any Disease" autocomplete="off" required><br>
                                 <select name="blood_grp" class="form-control">
                                     <option>Donor Blood Group</option>
                                     <option>A+</option>

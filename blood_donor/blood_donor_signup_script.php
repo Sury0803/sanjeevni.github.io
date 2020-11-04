@@ -15,6 +15,7 @@ if(isset($_POST['signup'])){
     $State=mysqli_real_escape_string($con,$_POST['state']);
     $District=mysqli_real_escape_string($con,$_POST['district']);
     $Blood_Group=mysqli_real_escape_string($con,$_POST['blood_grp']);
+    $Disease=mysqli_real_escape_string($con,$_POST['donor_disease']);
     $Status="verified";
     $Ver_Code=mt_rand();
     if(strlen($Password)<8){
@@ -31,7 +32,7 @@ if(isset($_POST['signup'])){
         exit();
     }
 
-    $vj ="INSERT INTO `blood_donor`(`email`, `pass`, `name`, `age`, `address`, `blood_grp`, `phone_no`, `country`, `state`, `district`, `image`, `reg_date`, `ver_code`, `status`) VALUES ('$Email','$Password','$Name','$Age','$Address','$Blood_Group','$Phone_No','$Country','$State','$District','b_default.png',NOW(),'$Ver_Code','$Status')";
+    $vj ="INSERT INTO `blood_donor`(`email`, `pass`, `name`, `age`, `address`, `blood_grp`, `phone_no`, `country`, `state`, `district`,`any_desease`, `image`, `reg_date`, `ver_code`, `status`) VALUES ('$Email','$Password','$Name','$Age','$Address','$Blood_Group','$Phone_No','$Country','$State','$District','$Disease','b_default.png',NOW(),'$Ver_Code','$Status')";
     
     $query=mysqli_query($con,$vj);
     

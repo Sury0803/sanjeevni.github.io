@@ -17,4 +17,5 @@ $District=$row['district'];
 $D_Phone_No=$row['phone_no'];
 $Blood_Group=$row['blood_grp'];
 $Image=$row['image'];
+$desease=$row['any_desease'];
 ?>

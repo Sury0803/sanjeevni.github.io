@@ -6,7 +6,7 @@ if(isset($_POST['login'])){
     $Email=mysqli_real_escape_string($con,$_POST['email']);
     $Password=mysqli_real_escape_string($con,$_POST['password']);
     
-    $select_user="select * from user where email='$Email' AND pass='$Password' AND status='verified'";
+    $select_user="select * from hospital where email='$Email' AND pass='$Password' AND status='verified'";
     
     $query=mysqli_query($con,$select_user);
     $check=mysqli_num_rows($query);

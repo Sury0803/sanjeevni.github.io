@@ -4,7 +4,7 @@ include("includes/connection.php");
 if(isset($_GET['id'])){
     global $con;
     $User_Id=$_GET['id'];
-    $select="SELECT * FROM `user` WHERE `id`='$User_Id'";
+    $select="SELECT * FROM `hospital` WHERE `id`='$User_Id'";
     $run=mysqli_query($con,$select);
     $row=mysqli_fetch_array($run);
     

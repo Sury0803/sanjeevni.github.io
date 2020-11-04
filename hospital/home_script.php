@@ -2,7 +2,7 @@
 session_start();
 include("../includes/connection.php");
 $user = $_SESSION['email'];
-$get_user="select * from user where email='$user'";
+$get_user="select * from hospital where email='$user'";
 $run_user=mysqli_query($con,$get_user);
 $row=mysqli_fetch_array($run_user);
 

@@ -99,6 +99,10 @@ include("blood_donor_profile_page_script.php");
                 </div>
             </div>
             <div class="col-sm-6">
+                   <div class="col2">
+                    <p class="title">desease:</p>
+                    <p class="info"><?php echo"$desease"; ?></p>
+                    </div>
             </div>
         </div>
     </div>

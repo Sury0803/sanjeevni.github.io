@@ -41,7 +41,7 @@ global $con;
               <div class="row">
                <div class="col1">
                 <?php
-                $users="SELECT * FROM `user` WHERE `district`='Ambedkar Nagar'";
+                $users="SELECT * FROM `hospital` WHERE `district`='Ambedkar Nagar'";
                 $run_user=mysqli_query($con,$users);
                 echo"</br><h3>Hospitals in<br> Ambedkar Nagar</h3><hr>";
                 while($row_user=mysqli_fetch_array($run_user)){
